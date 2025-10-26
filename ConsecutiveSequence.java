@@ -25,7 +25,7 @@ public class ConsecutiveSequence {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 100 ,2,3};
+        int[] arr = { 100,4,200,1,3,2};
         int length = consecutiveSequenceLength(arr);
         System.out.println(length);
         for (int i = 0; i < length; i++) {
